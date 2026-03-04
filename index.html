@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html class="no-js ss-preload" lang="en">
+
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Portfolio</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+
+</head>
+
+<body id="top">
+
+
+    <!-- # preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader">
+        </div>
+    </div>
+
+
+    <!-- # page wrap
+    ================================================== -->
+    <div class="s-pagewrap">
+
+        <div class="circles">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+
+        <!-- ## site header 
+        ================================================== -->
+
+        <header id="header"
+            style="position: fixed; width: 100%; top: 0; z-index: 1000; box-shadow: 0 2px 10px rgba(0,0,0,0.5);">
+            <div class="container"
+                style="display: flex; justify-content: space-between; align-items: center; padding: 15px 30px;">
+
+                <!-- 로고 -->
+                <div class="logo" style="font-size: 24px; font-weight: bold; color: #5AB9EA;">
+                    Sarah Kelly
+                </div>
+
+                <!-- 네비게이션 -->
+                <nav>
+                    <ul style="display: flex; gap: 25px; list-style: none; margin: 0; padding: 0;">
+                        <li><a href="#hero" style="color:#E8E8E8; text-decoration:none;">Главная</a></li>
+                        <li><a href="#about" style="color:#E8E8E8; text-decoration:none;">Обо мне</a></li>
+                        <li><a href="#projects" style="color:#E8E8E8; text-decoration:none;">Проекты</a></li>
+                        <li><a href="#skills" style="color:#E8E8E8; text-decoration:none;">Навыки</a></li>
+                        <li><a href="#contact" style="color:#E8E8E8; text-decoration:none;">Контакты</a></li>
+                    </ul>
+                </nav>
+
+                <!-- 버튼 (선택) -->
+                <a href="#contact" class="btn"
+                    style="background-color:#5AB9EA; color:#fff; padding: 8px 16px; border-radius: 5px; text-decoration:none;">Связаться</a>
+
+            </div>
+        </header>
+
+        <!-- ## main content
+        ==================================================- -->
+        <main class="s-content">
+
+
+            <!-- ### intro
+            ================================================== -->
+            <section id="intro" class="s-intro target-section">
+
+                <div class="row intro-content wide">
+
+                    <div class="column">
+                        <!-- <div class="text-pretitle with-line">
+                            Hello World
+                        </div> -->
+                        <h1 class="hero-title">Привет, Я Sarah Kelly</h1>
+
+                            <h3 class="hero-subtitle">
+                                Опытный full-stack разработчик, создающий современные и удобные веб-приложения с
+                                высококачественным кодом и красивым дизайном.
+                            </h3>
+
+                        <!-- <a href="#projects" class="btn">Посмотреть проекты</a> -->
+
+                        <!-- <h1 class="text-huge-title">
+                            I am Sarah, <br>
+                            a digital designer <br>
+                            & frontend <br> 
+                            developer based <br>
+                            in Somewhere.
+                        </h1> -->
+                    </div>
+
+                    <ul class="intro-social">
+                        <li><a href="#0">Behance</a></li>
+                        <li><a href="#0">Twitter</a></li>
+                        <li><a href="#0">Dribbble</a></li>
+                        <li><a href="#0">Instagram</a></li>
+                    </ul>
+
+                </div> <!-- end intro content -->
+
+                <a href="#about" class="intro-scrolldown smoothscroll">
+                    <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+                        fill-rule="evenodd" clip-rule="evenodd">
+                        <path
+                            d="M11 21.883l-6.235-7.527-.765.644 7.521 9 7.479-9-.764-.645-6.236 7.529v-21.884h-1v21.883z" />
+                    </svg>
+                </a>
+
+            </section> <!-- end s-intro -->
+
+
+            <!-- ### about
+
+            
+            ================================================== -->
+            <section id="about" class="s-about target-section">
+
+
+                <div class="row about-info wide" data-animate-block>
+
+                    <div class="column lg-6 md-12 about-info__pic-block">
+                        <img src="images/about-photo.jpg"
+                            srcset="images/about-photo.jpg 1x, images/about-photo@2x.jpg 2x" width="510px" alt=""
+                            class="animate-img about-info__pic" data-animate-el>
+                    </div>
+
+                    <div class="column lg-6 md-12">
+                        <div class="about-info__text">
+
+                            <h2 class="text-pretitle with-line" data-animate-el>
+                                Обо мне
+                            </h2>
+                            <div class="attention-getter" data-animate-el>
+                              Я опытный full-stack разработчик с более чем пятилетним стажем, создающий масштабируемые веб-приложения и высокопроизводительные финтех-системы. Я специализируюсь на React, Node.js и Python, а также имею обширный опыт разработки бэкенд-архитектур с использованием Laravel и Nest.js. Мне нравится проектировать чистые, поддерживаемые системы и оптимизировать производительность в производственной среде. Чистая архитектура, масштабируемость и надежный код — мои ключевые ценности. Я — сильный командный игрок и люблю сложные задачи.
+                            </div>
+                            <a href="cv/resume.pdf" download class="cv-btn">Скачать резюме</a>
+                        </div>
+                    </div>
+                </div> <!-- about-info -->
+
+
+                 <!-- end about-expertise -->
+
+               <div class="resume-container">
+
+                    <!-- LEFT COLUMN -->
+                    <div class="left-column">
+                        <section>
+                        <h2 class="section-title">Опыт</h2>
+
+                        <div class="experience-card">
+                            <div class="exp-top">
+                            <h3>Senior Web Developer</h3>
+                            <span class="date">2025 – Present</span>
+                            </div>
+                            <div class="company">Huawei Technologies</div>
+                            <ul>
+                            <li>Built scalable React + Python applications</li>
+                            <li>Increased conversion by <strong>30%</strong></li>
+                            <li>Improved workflows by <strong>55%</strong></li>
+                            <li>Led team of 6 engineers</li>
+                            </ul>
+                        </div>
+
+                        <div class="experience-card">
+                            <div class="exp-top">
+                            <h3>Frontend Developer</h3>
+                            <span class="date">2021 – 2023</span>
+                            </div>
+                            <div class="company">Xiaomi</div>
+                            <ul>
+                            <li>Developed 12+ applications</li>
+                            <li>Improved mobile conversion by <strong>32%</strong></li>
+                            <li>Optimized performance (Next.js)</li>
+                            </ul>
+                        </div>
+                        </section>
+                    </div>
+
+                    <!-- RIGHT COLUMN -->
+                        <div class="right-column">
+                            <section>
+                            <h2 class="section-title">Основные области компетенции</h2>
+
+                            <div class="skills-card">
+                                <h4>Frontend</h4>
+                                <p>React · Next.js · TypeScript · SSR</p>
+                            </div>
+
+                            <div class="skills-card">
+                                <h4>Backend</h4>
+                                <p>Python · Node.js · REST · GraphQL · Laravel</p>
+                            </div>
+
+                            <div class="skills-card">
+                                <h4>Databases</h4>
+                                <p>PostgreSQL · MongoDB</p>
+                            </div>
+
+                            <div class="skills-card">
+                                <h4>DevOps</h4>
+                                <p>AWS · Docker · CI/CD</p>
+                            </div>
+                            </section>
+                        </div>
+
+                        </div>
+
+               <div class="resume-wrapper">
+
+            <!-- LEFT COLUMN -->
+            <div class="column">
+                <h2 class="section-title">опыт работы</h2>
+
+                <div class="timeline">
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                    <div class="item-header">
+                        <h3>Huawei Technologies</h3>
+                        <span class="date">Jan 2025 — Present</span>
+                    </div>
+                    <div class="role">Senior Web Developer</div>
+                     <ul>
+                            <li>Разработал адаптивные веб-приложения с использованием React, TypeScript и Python,
+                                        интегрировав API, что повысило конверсию клиентов на 30%.</li>
+                            <li>IСоздал полнофункциональные решения с использованием MongoDB для управления контентом
+                                        оптимизировал рабочие процессы на 55%.</li>
+                            <li>Руководил командой из 6 разработчиков, создавших масштабируемый корпоративный
+                                        портал с использованием React, Node.js и AWS повысил вовлеченность пользователей на 35%
+                                        и сократил время загрузки на 40%.</li>
+                            </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                    <div class="item-header">
+                        <h3>Xiaomi | Пекин, Китай</h3>
+                        <span class="date">Apr 2021 — Feb 2023</span>
+                    </div>
+                    <div class="role">Frontend Developer</div>
+                    <ul>
+                            <li>Создал адаптивные пользовательские интерфейсы для более чем 12 приложений с
+                                        использованием React и TypeScript, улучшив конверсию на мобильных устройствах на
+                                        32%.</li>
+                            <li>Оптимизировал производительность и скорость загрузки страниц с помощью Next.js и
+                                        ленивой
+                                        загрузки на 50% быстрее в приложениях с высокой загрузкой.</li>
+                            <li> В сотрудничестве с дизайнерами создавал идеально проработанные интерфейсы с
+                                        помощью
+                                        Figma и Sass повысил удовлетворенность пользователей на 28%</li>
+                            </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                    <div class="item-header">
+                        <h3>Baidu | Ханчжоу, Китай</h3>
+                        <span class="date">Mar 2022 – Dec 2024</span>
+                    </div>
+                    <div class="role">Full-Stack Developer</div>
+                    <ul>
+                            <li>Разрабатывал фронтенд-интерфейсы с использованием React и интегрировал API на
+                                        основе Python увеличил коэффициент конверсии на 27%.</li>
+                            <li> Разрабатывал комплексные приложения с использованием MongoDB, Express.js и
+                                        Angular повысил удержание пользователей SaaS на 45%.</li>
+                            <li>  Автоматизировал рабочие процессы отчетности и аналитики данных, повысив эффективность
+                                команды на 35%</li>
+                            </ul>
+                    </div>
+                </div>
+
+                </div>
+            </div>
+
+            <!-- RIGHT COLUMN -->
+            <div class="column">
+                <h2 class="section-title">Образование</h2>
+
+                <div class="edu-card">
+                <h4>Шанхайский университет Цзяо Тун (Shanghai Jiaotong
+                                        University)</h4>
+                <div class="degree">Магистерская степень в области компьютерных наук.</div>
+                <div class="date">Sept 2017</div>
+                <div class="timeline__desc">
+                    <p>Разработал масштабируемую веб-платформу с использованием React + Node.js
+                Разработал модель машинного обучения для прогнозной аналитики
+                Внедрил распределенный планировщик задач
+                Разработал REST API для исследовательских инструментов</p>
+                </div>
+                
+                </div>
+
+            </div>
+
+            </div>
+                            <!-- end about-timelines -->
+
+            </section> <!-- end s-about -->
+
+
+            <!-- ### works
+            ================================================== -->
+          <section class="recent-works">
+
+            <h2 class="section-title">Недавние работы</h2>
+
+            <div class="projects-grid">
+
+                <!-- HUAWEI -->
+                <div class="project-card">
+                <div class="project-content">
+                    <h3>Корпоративный портал Huawei</h3>
+                    <p class="project-desc">
+                    Масштабируемое веб-приложение с использованием React, TypeScript и Python.
+                    Интеграция API повысила конверсию на 30%.
+                    Оптимизация процессов управления контентом увеличила эффективность на 55%.
+                    </p>
+
+                    <p class="project-role"><strong>Роль:</strong> Старший веб-разработчик</p>
+                    <p class="project-impact"><strong>Результат:</strong> +35% вовлеченность, −40% время загрузки</p>
+
+                    <div class="tech-stack">
+                    <span>React</span>
+                    <span>TypeScript</span>
+                    <span>Python</span>
+                    <span>MongoDB</span>
+                    <span>AWS</span>
+                    </div>
+                </div>
+                </div>
+
+                <!-- XIAOMI -->
+                <div class="project-card">
+                <div class="project-content">
+                    <h3>Высоконагруженная фронтенд-платформа</h3>
+                    <p class="project-desc">
+                    Разработка 12+ адаптивных интерфейсов с использованием React и TypeScript.
+                    Оптимизация через Next.js и lazy loading ускорила загрузку на 50%.
+                    </p>
+
+                    <p class="project-role"><strong>Роль:</strong> Фронтенд-разработчик</p>
+                    <p class="project-impact"><strong>Результат:</strong> +32% мобильная конверсия</p>
+
+                    <div class="tech-stack">
+                    <span>React</span>
+                    <span>TypeScript</span>
+                    <span>Next.js</span>
+                    <span>Sass</span>
+                    </div>
+                </div>
+                </div>
+
+                <!-- BAIDU -->
+                <div class="project-card">
+                <div class="project-content">
+                    <h3>SaaS-платформа аналитики</h3>
+                    <p class="project-desc">
+                    Разработка full-stack решений с использованием React, Python и MongoDB.
+                    Автоматизация аналитики повысила эффективность команды на 35%.
+                    </p>
+
+                    <p class="project-role"><strong>Роль:</strong> Full-Stack разработчик</p>
+                    <p class="project-impact"><strong>Результат:</strong> +27% конверсия, +45% удержание</p>
+
+                    <div class="tech-stack">
+                    <span>React</span>
+                    <span>Python</span>
+                    <span>MongoDB</span>
+                    <span>Express</span>
+                    </div>
+                </div>
+                </div>
+
+            </div>
+
+            </section>
+
+
+            <!-- ### contact
+            ================================================== -->
+            <section id="contact" class="s-contact target-section">
+
+                <div class="row contact-top">
+                    <div class="column lg-12">
+                        <h2 class="text-pretitle">
+                            Get In Touch
+                        </h2>
+
+                        <p class="h4">
+                           Мне всегда приятно получать от вас сообщения. Если у вас есть вопросы или вы хотите поговорить о дизайне, технологиях или искусстве, не стесняйтесь писать мне в любое время.
+                        </p>
+                    </div>
+                </div> <!-- end contact-top -->
+
+               <section class="contact-section">
+  <a href="mailto:your@email.com" class="contact-button">
+    Связаться со мной
+  </a>
+</section>
+
+            </section> <!-- end contact -->
+
+        </main> <!-- end s-content -->
+
+
+        <!-- ## footer
+        ================================================== -->
+        <!-- <footer class="s-footer">
+
+            <div class="row">
+                <div class="column ss-copyright">
+                    <span>© Copyright Luther 2021</span>
+                    <span>Design by <a href="https://www.styleshout.com/">StyleShout</a> Distribution By <a
+                            href="https://themewagon.com">Themewagon</a></span>
+                </div>
+
+                <div class="ss-go-top">
+                    <a class="smoothscroll" title="Back to Top" href="#top">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill-rule="evenodd"
+                            clip-rule="evenodd">
+                            <path
+                                d="M11 2.206l-6.235 7.528-.765-.645 7.521-9 7.479 9-.764.646-6.236-7.53v21.884h-1v-21.883z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+        </footer>  -->
+        <!-- end s-footer -->
+
+    </div> <!-- end -s-pagewrap -->
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        const images = document.querySelectorAll('.animate-img');
+
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('show');
+                }
+            });
+        });
+
+        images.forEach(img => observer.observe(img));
+    </script>
+
+</body>
+
+</html>
